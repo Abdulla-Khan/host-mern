@@ -1,0 +1,426 @@
+@font-face {
+    font-family: 'font';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: font, sans-serif;
+}
+
+.up-head {
+    z-index: -1;
+
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+}
+
+.mail {
+
+    position: absolute;
+    top: 7px;
+    left: 162px;
+    text-decoration: none;
+    color: gray;
+}
+
+.message-img {
+    padding-left: 140px;
+    padding-top: 7px;
+}
+
+.phone-img {
+    padding-left: 210px;
+    padding-top: 7px;
+}
+
+.phone {
+    position: absolute;
+    top: 7px;
+    left: 395px;
+    text-decoration: none;
+    color: gray;
+}
+
+.lang {
+    text-decoration: bold;
+    width: 70px;
+    height: 50px;
+    padding-top: 0.5%;
+    background-color: white;
+    position: absolute;
+    left: 85%;
+    text-align: center;
+
+}
+
+.header {
+    background-color: white;
+    box-shadow: 1px 1px 4px rgb(179, 177, 177);
+    position: fixed;
+    top: 0%;
+    height: 10%;
+    width: 100%;
+}
+
+.saylani-img {
+    padding-left: 140px;
+    padding-top: 7px;
+    margin-right: 100px;
+
+}
+
+.li-head {
+    display: inline-block;
+    padding-left: 36px;
+}
+
+.li {
+    position: absolute;
+    top: 45%;
+    display: inline-block;
+
+}
+
+.donate {
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 13px;
+    right: 80px;
+    top: 33%;
+    width: 141px;
+    height: 35px;
+    color: white;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: #0D6DB7;
+}
+
+.donate:hover {
+    width: 145px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.heading1 {
+    font-size: 42px;
+    padding-left: 140px;
+    padding-top: 7px;
+}
+
+.saylani-logo {
+    color: #8DC63F;
+}
+
+.support {
+    padding-left: 140px;
+    padding-top: 7px;
+}
+
+.edu {
+    color: #0D6DB7;
+}
+
+.support-text {
+    padding-left: 140px;
+    padding-top: 7px;
+    width: 40%;
+    line-height: 20px;
+}
+
+.explore {
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 140px;
+    margin-top: 7px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0.1px;
+    color: #000000D9;
+    background-color: transparent;
+    border-color: rgb(219, 219, 219);
+}
+
+.arrow {
+    position: relative;
+    top: 6px;
+    color: black;
+}
+
+.img-large {
+    z-index: -1;
+    position: absolute;
+    right: 6%;
+    top: 14%;
+}
+
+.help {
+    border-radius: 10px;
+
+    width: 80%;
+    margin: 10px auto;
+    background-color: #B6EF4933;
+}
+
+.help-text {
+
+    width: 250px;
+}
+
+.help-tex {
+    padding-left: 3%;
+    padding-bottom: 1%;
+
+}
+
+.help-list {
+    margin-left: 50px;
+    width: 10%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    border-width: 0px;
+}
+
+.help-list-donate {
+    margin-left: 50px;
+    width: 10%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #0D6DB7;
+    color: white;
+    border-width: 0px;
+}
+
+.help-list:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.help-list-donate:hover {
+    width: 12%;
+    height: 42px;
+}
+
+.doing {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.card {
+    margin-right: 0.2%;
+    padding-top: 2%;
+    text-align: center;
+    display: inline-block;
+    width: 12.5%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #B6EF4933;
+}
+
+.doing-list {
+    text-align: center;
+}
+
+
+.projects {
+    padding-top: 1%;
+    padding-left: 170px;
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.projects-img {
+    width: 50%;
+    height: 59%;
+    border-top-left-radius: 10px;
+}
+
+.img-project {
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.img-border {
+
+    width: 20%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+
+
+.text {
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+}
+
+.f {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.i {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.headerr {
+    padding: 0;
+    margin: 0;
+    color: #0D6DB7;
+    font-size: 15px;
+}
+
+.our-peoject-sup {
+    line-height: 1px;
+    font-size: 14px;
+}
+
+.daily {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 77.5%;
+    height: 80%;
+    margin: 10px auto;
+    background-color: #0D6DB7;
+}
+
+.iimg-border {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 100px;
+    margin: 10px auto 10px auto;
+
+}
+
+.daily-img {
+    width: 60%;
+    height: 60%;
+    top: 15%;
+    left: 20%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.daily-text {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: white;
+    text-align: center;
+
+}
+
+.daily-text-sm {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.testimonials {
+    padding: 0;
+    color: #8DC63F;
+    text-align: center;
+}
+
+.say {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonials-bg {
+    background-color: rgb(236, 236, 236);
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 77.5%;
+    margin: 10px auto;
+}
+
+.testimonials-img {
+    width: 10%;
+    height: 10%;
+    border: 0px solid white;
+    border-radius: 100px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.testimonials-name {
+    color: #0D6DB7;
+    text-align: center;
+
+}
+
+.testimonials-desg {
+    text-align: center;
+
+}
+
+.testimonials-desc {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+
+.news {
+    background-color: rgb(236, 236, 236);
+    width: 280px;
+    /* height: 20px; */
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.news-img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+
+}
+
+.news-date {
+    padding-right: 20px;
+    height: 30%;
+    background-color: #8DC63F;
+    border: none;
+}
+
+.btn-border {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 46%;
+    text-align: center;
+    /* height: 30%; */
+    background-color: #8DC63F;
+    border-radius: 5px;
+    border: none;
+}
+
+.news-head {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60%;
+    height: 50px;
+    /* height: 200px; */
+    overflow: hidden;
+}
